@@ -2,8 +2,9 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Pixi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SUZUKA-H5-PIXI</title>
     <meta property="og:title" content=""/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>
@@ -22,23 +23,32 @@
 
 <body>
 
-<div id="playerCon"></div>
-
-<form action="">
-    <input type="text" name="keyInput" placeholder="Channel Key" maxlength="8">
-</form>
-
 <nav id="navCon">
-    <a href="#" class="logo"><img src="./resource/assets/header/logo.jpg" alt=""/></a>
-</nav>
+    <a href="#" class="logo"><img src="./resource/assets/header/logo.png" alt=""/></a>
 
-<div id="footerCon">Footer</div>
+    <div class="navBtnBox">
+        <div class="raceIcon"></div>
+        <a href="#" class="ruleBtn"><img src="./resource/assets/header/rule_btn_icon.png" alt=""/></a>
+        <a href="#" class="fbBtn" target="_blank"><img src="./resource/assets/header/fb_btn_icon.png" alt=""/></a>
+        <a href="#" class="lineBtn" target="_blank"><img src="./resource/assets/header/line_btn_icon.png" alt=""/></a>
+    </div>
+</nav>
+<div id="contentWrapper"></div>
+
+
+<footer id="footerCon">
+    <div class="footerBtnBox">
+        <a href="#" target="_blank">下載「官方APP」</a>
+        <span class="fix">|</span>
+        <a href="#" target="_blank">官方網站</a>
+        <span>|</span>
+        <a href="#" target="_blank">FB粉絲團</a>
+    </div>
+</footer>
+
 </body>
 
 <!-- My libs -->
 <script type="text/javascript" src="./js/Main.js"></script>
-<script type="text/javascript">
-    sessionStorage.setItem("serverName", "nameless-eyrie-8008");
-</script>
 
 </html>
