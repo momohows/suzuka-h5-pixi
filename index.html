@@ -23,6 +23,7 @@
 
 <body>
 
+<!-- Navigation -->
 <nav id="navCon">
     <a href="#" class="logo"><img src="./resource/assets/header/logo.png" alt=""/></a>
 
@@ -32,10 +33,99 @@
         <a href="#" class="fbBtn" target="_blank"><img src="./resource/assets/header/fb_btn_icon.png" alt=""/></a>
         <a href="#" class="lineBtn" target="_blank"><img src="./resource/assets/header/line_btn_icon.png" alt=""/></a>
     </div>
+    <div class="cl"></div>
 </nav>
-<div id="contentWrapper"></div>
+<!-- Navigation END -->
 
 
+<div id="playerCon"></div>
+
+<!-- Content -->
+<div id="contentCon">
+
+    <!-- HomeView -->
+    <div id="homeView" class="view">
+        <div class="homeStep1 step">
+            <img class="catch" src="./resource/assets/home/home_catch.png" alt=""/>
+
+            <div class="startBtn"><img src="./resource/assets/home/home_start_btn.png" alt=""/></div>
+        </div>
+    </div>
+    <!-- HomeView END -->
+
+
+    <!-- ChannelView -->
+    <div id="channelView" class="view">
+
+        <!-- 選擇人數 -->
+        <div class="channelStep1 step">
+            <div class="catch"><img src="./resource/assets/channel/channel_catch_1.png" alt=""/></div>
+
+            <div class="btnBox">
+                <div class="singleBtn"><img src="./resource/assets/channel/channel_single_btn.png" alt=""/></div>
+                <div class="multiBtn"><img src="./resource/assets/channel/channel_multi_btn.png" alt=""/></div>
+            </div>
+        </div>
+
+        <!-- 選擇角色 -->
+        <div class="channelStep2 step">
+            <div class="catch"><img src="./resource/assets/channel/channel_catch_2.png" alt=""/></div>
+            <div class="btnBox">
+                <div class="leaderBtn"><img src="./resource/assets/channel/channel_leader_btn.png" alt=""/></div>
+                <div class="memberBtn"><img src="./resource/assets/channel/channel_member_btn.png" alt=""/></div>
+            </div>
+        </div>
+
+        <!-- 選擇角色 -->
+        <div class="channelStep3 step">
+            <div class="catch">
+                <p class="keyText"></p>
+
+                <p class="totalText"></p>
+                <img src="./resource/assets/channel/channel_catch_3.png" alt=""/>
+            </div>
+            <div class="lockBtn"><img src="./resource/assets/channel/channel_lock_btn.png" alt=""/></div>
+        </div>
+
+        <!-- 輸入序號 -->
+        <div class="channelStep4 step">
+            <div class="catch"><img src="./resource/assets/channel/channel_catch_4.png" alt=""/></div>
+            <div class="joinBtn"><img src="./resource/assets/channel/channel_join_btn.png" alt=""/></div>
+        </div>
+
+        <!-- 遊戲前提示 -->
+        <div class="channelStep5 step">
+            <div class="catch"><img src="./resource/assets/channel/channel_catch_5.png" alt=""/></div>
+            <div class="playBtn"><img src="./resource/assets/channel/channel_play_btn.png" alt=""/></div>
+        </div>
+    </div>
+    <!-- ChannelView END -->
+
+
+    <!-- WaitView -->
+    <div id="waitView" class="view">
+        <div class="waitStep1 step">
+            <div class="goBtn"><img src="./resource/assets/wait/wait_go_btn.png" alt=""/></div>
+        </div>
+    </div>
+
+    <!-- GameView -->
+    <div id="gameView" class="view">
+
+    </div>
+
+    <!-- ResultView -->
+    <div id="resultView" class="view">
+    </div>
+
+</div>
+<!-- Content END -->
+
+
+<div id="preLoading"></div>
+
+
+<!-- Footer -->
 <footer id="footerCon">
     <div class="footerBtnBox">
         <a href="#" target="_blank">下載「官方APP」</a>
@@ -45,10 +135,11 @@
         <a href="#" target="_blank">FB粉絲團</a>
     </div>
 </footer>
+<!-- Footer END -->
 
 </body>
 
 <!-- My libs -->
-<script type="text/javascript" src="./js/Main.js"></script>
+<script type="text/javascript" src="./js/App.js"></script>
 
 </html>

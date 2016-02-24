@@ -3,9 +3,9 @@
  */
 
 /// <reference path="../abstract/AbstractView.ts"/>
-/// <reference path="home/HomeStep1.ts"/>
+/// <reference path="channel/ChannelStep1.ts"/>
 
-class HomeView extends AbstractView {
+class WaitView extends AbstractView {
 
     constructor(name:string, resource:any, id:number, stepid:number) {
         super(name, resource, id, stepid);
@@ -16,7 +16,7 @@ class HomeView extends AbstractView {
      * Step
      * */
     private stepData:Array<Object> = [
-        {name: "homeStep1", className: HomeStep1}
+        {name: "waitStep1", className: ChannelStep1}
     ];
 
     public toCreateStep(id:number):void {
